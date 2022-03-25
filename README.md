@@ -140,4 +140,4 @@ If you want to beat the game quickly, here's how:
 
 
 # CREDITS
-Created by Anna Wilson, Jade Lee, and Skye Worster 2021
+Created by Anna Wilson, Jade Lee, and Skye Worster December 2021
