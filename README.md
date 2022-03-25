@@ -112,11 +112,11 @@ If you want to beat the game quickly, here's how:
   - use oar / paddle / row
   - use flare gun / fire flare gun
 
+
+# ABOUT THE DESIGN AND PROCESS
+
 Visual diagram of the class structure:
 ![image](https://user-images.githubusercontent.com/72671700/160195859-efb907bc-1094-45bb-a6d8-f1c76cc0874e.png)
-
-
-#ABOUT THE DESIGN AND PROCESS
 
 The most important part of our design was the custom objects we built. We realized that games are inherently very object oriented, and we had many specific purposes for our different objects. For example, a building contains several specific things: intro text, enemy encounter, win condition, lose condition, items contained, etc. These are the following custom objects we created:
 
@@ -139,5 +139,5 @@ It’s a HashMap of HashMaps. The reason for this was we started out with a HasM
 As for alternative data structures, the main alternative we could have used was for our graph. Ours is a very base-level structure we made ourselves, with each node having four pointers, and the nodes on the edge of the map not pointing to anything (we had to prevent the player from entering these nodes). Alternatively, we could have used Guava. It would have been helpful because we wouldn’t have had to code it from scratch, but we already made our Node class before we talked about it in class, and it works just fine for our purposes. It also probably would've been a big learning curve, as we heard from other teams during Demo day.
 
 
-#CREDITS
+# CREDITS
 Created by Anna Wilson, Jade Lee, and Skye Worster 2021
